@@ -49,6 +49,13 @@ function Navbar() {
                 About
               </Link>
               <Link
+                href="/demo"
+                className="text-gray-700 dark:text-gray-300 hover:text-orange-500 transition-colors font-medium"
+              >
+                Watch Demo
+              </Link>
+
+              <Link
                 className="px-4 py-2 bg-orange-500 text-white rounded-lg font-medium hover:bg-orange-600 transition-colors cursor-pointer"
                 href={"/model"}
               >
