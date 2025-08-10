@@ -3,6 +3,7 @@ import { Eye, Zap, Play, BarChart3 } from "lucide-react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -81,14 +82,20 @@ export default function Home() {
                     Upload Medical Image
                   </label>
                   <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-12 text-center bg-gray-50 dark:bg-gray-700">
-                    <div className="w-12 h-12 mx-auto mb-4 bg-orange-100 dark:bg-orange-900/20 rounded-lg flex items-center justify-center">
-                      <Eye className="w-6 h-6 text-orange-500" />
+                    <div className="w-20 h-20 mx-auto mb-4 rounded-lg overflow-hidden">
+                      <Image
+                        src="/wound_illustration.png"
+                        width={40}
+                        height={40}
+                        alt="Wound Illustration"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <p className="text-gray-600 dark:text-gray-400 mb-2">
                       Drop image here or click to browse
                     </p>
                     <p className="text-sm text-gray-500 dark:text-gray-500">
-                      Supports JPG, PNG, DICOM formats
+                      Supports any image formats
                     </p>
                   </div>
                 </div>
@@ -104,7 +111,7 @@ export default function Home() {
                         Wound Type:
                       </span>
                       <span className="font-medium text-gray-900 dark:text-white">
-                        Pressure Ulcer
+                        Diabetic Wound
                       </span>
                     </div>
                     <div className="flex justify-between items-center">
