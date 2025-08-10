@@ -19,9 +19,17 @@ function Footer() {
                 </span>
               </div>
               <p className="text-gray-600 dark:text-gray-400 text-sm max-w-md">
-                An academic research initiative by Yeshwantrao Chavan College of Engineering,
-                focused on AI-assisted wound analysis using deep learning and computer vision.
+                An academic research initiative by Yeshwantrao Chavan College of
+                Engineering, focused on AI-assisted wound analysis using deep
+                learning and computer vision.
               </p>
+              {/* Counter Embed */}
+
+              <img
+                src="https://counter1.optistats.ovh/private/freecounterstat.php?c=wg6p6c4uah6z23rzgmfnjkmf4rqrbx7l"
+                alt="web counter"
+                className="pt-4"
+              />
             </div>
 
             {/* Quick Links */}
@@ -54,7 +62,8 @@ function Footer() {
           {/* Bottom Bar */}
           <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
             <p className="text-sm text-gray-500 dark:text-gray-500 text-center">
-              © 2025 YCCE Wound Analysis Research Project. For academic use only.
+              © 2025 YCCE Wound Analysis Research Project. For academic use
+              only.
             </p>
           </div>
         </div>
