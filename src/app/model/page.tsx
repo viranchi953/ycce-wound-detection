@@ -16,7 +16,7 @@ export default function WoundAnalysisEmbed() {
       <Navbar />
       <div className="flex-grow">
         <iframe
-          src="https://rakhi-2025-wound-analysis-le.hf.space"
+          src="https://aman4014-wound-analysis-v2.hf.space"
           style={{
             width: "100%",
             height: "100vh", // Fill screen height
